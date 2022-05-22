@@ -4290,6 +4290,15 @@ body.is-preload #banner .button {
   transform: translateY(-1.5rem) scale(1.03);
 }
 
+@media screen and (max-width: 1680px) {
+  .feature-box {
+    width: 40% !important;
+    display: block;
+    float: none;
+    margin-bottom: 3rem;
+  }
+}
+
 @media screen and (max-width: 980px) {
   .feature-box {
     width: 100% !important;
